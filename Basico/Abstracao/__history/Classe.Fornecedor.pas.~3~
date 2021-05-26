@@ -1,0 +1,14 @@
+unit Classe.Fornecedor;
+
+interface
+  uses Classe.Cliente;
+type
+  Fonernecedor = class(TPessoa)
+
+  end;
+
+implementation
+
+
+
+end.

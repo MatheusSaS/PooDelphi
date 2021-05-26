@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object Layout2: TLayout
+    Align = Bottom
+    Position.Y = 416.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Button1: TButton
+      Align = Right
+      Position.X = 320.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Button1'
+    end
+    object Button2: TButton
+      Align = Right
+      Position.X = 400.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Button1'
+    end
+    object Button3: TButton
+      Align = Right
+      Position.X = 480.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Button1'
+    end
+    object Button4: TButton
+      Align = Right
+      Position.X = 560.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Button1'
+    end
+  end
+  object frmPadrao: TLayout
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 366.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+end

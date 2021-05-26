@@ -1,0 +1,68 @@
+unit Cliente;
+
+interface
+  uses System.Classes, System.SysUtils,interfaces;
+
+type
+  TPessoa = class
+    private
+
+    public
+      Nome : String;
+      Telefone : String;
+      Endereco : String;
+      Cidade : String;
+      Uf : String;
+      Conexao : IConexao;
+
+      procedure CadastrarClientes();
+      function Idade() : integer;
+     constructor create(aConexao : IConexao);
+  End;
+
+implementation
+
+{ TCliente }
+
+
+procedure TPessoa.CadastrarClientes;
+Var list : TStringList;
+begin
+  list := TStringList.Create();
+  try
+    list.Add(Nome);
+    list.Add(Endereco);
+    list.Add(Cidade);
+    list.Add(Uf);
+    list.SaveToFile('C:\Estudo\Delphi\PooDelphi\Basico\Abstracao\Cliente.txt');
+
+    Conexao.Gravar();
+  finally
+    freeAndNil(list);
+  end;
+end;
+
+constructor TPessoa.create(aConexao : IConexao);
+begin
+  Conexao := aConexao;
+  uf := 'RJ';
+end;
+
+function TPessoa.Idade: integer;
+begin
+  result := trunc((Now - FDataNascimento)/365.25);
+end;
+ procedure TPessoa.SetDataNascimento(const Value: TDateTime);
+begin
+  FDataNascimento := Value;
+end;
+
+procedure TPessoa.SetNome(const Value: String);
+begin
+  if value = '' then
+    raise Exception.Create('Valor não pode ser nulo');
+
+  FNome := Value;
+end;
+
+end.

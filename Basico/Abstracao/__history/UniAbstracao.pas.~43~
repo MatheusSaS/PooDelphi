@@ -1,0 +1,82 @@
+unit UniAbstracao;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Edit,Conexao.Oracle, Conexao.SQLServer,
+  Classe.Pessoa,Classe.Fornecedor, Classe.Cliente, FMX.ListBox;
+
+type
+  TForm3 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    ComboBox1: TComboBox;
+    ListBoxItem1: TListBoxItem;
+    ListBoxItem2: TListBoxItem;
+    Button3: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.fmx}
+
+
+{ TForm3 }
+
+procedure TForm3.Button1Click(Sender: TObject);
+Var fornecedor : TFonernecedor;
+begin
+  try
+    fornecedor := TFonernecedor.Create(TConexaoSQLServer.Create());
+
+    fornecedor.Nome := 'A';
+    fornecedor.Endereco := 'B';
+    fornecedor.Cidade := 'C';
+    fornecedor.RazaoSocial := 'D';
+
+    fornecedor.Cadastrar();
+  finally
+   FreeAndNil(fornecedor);
+  end;
+end;
+
+procedure TForm3.Button2Click(Sender: TObject);
+Var cliente : TCliente;
+begin
+  try
+    cliente := TCliente.Create(TConexaoSQLServer.Create());
+
+    cliente.Nome := 'A';
+    cliente.Endereco := 'B';
+    cliente.Cidade := 'C';
+    cliente.Saldo := 0;
+
+    cliente.Cadastrar();
+  finally
+   FreeAndNil(cliente);
+  end;
+end;
+
+procedure TForm3.Button3Click(Sender: TObject);
+Var pessoa : TPessoa;
+begin
+  case ComboBox1.ItemIndex of
+    0 : pessoa := TCliente.create(nil);
+    1 : pessoa := TFonernecedor.create(nil);
+  end;
+
+end;
+
+end.

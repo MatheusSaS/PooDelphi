@@ -1,0 +1,12 @@
+unit Principal;
+
+interface
+  uses System.Classes;
+
+  type
+    TEventos = class(TComponente)
+
+    end;
+implementation
+
+end.

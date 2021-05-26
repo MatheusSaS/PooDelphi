@@ -1,0 +1,14 @@
+unit Classe.Carro;
+
+interface
+type
+  TCarro = class
+    private
+      Marca : String;
+      Modelo : String;
+    public
+  end;
+
+implementation
+
+end.

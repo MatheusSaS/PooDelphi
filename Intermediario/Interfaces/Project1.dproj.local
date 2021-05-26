@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/06 20:12:17.000.477,=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/05/07 09:14:15.000.960,=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/05/25 22:06:45.141,=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/05/25 22:08:03.051,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit3.dfm=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2021/05/25 22:08:03.051,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit3.pas=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/05/25 22:08:07.464,=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2021/05/25 22:08:09.984,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit4.pas=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2021/05/25 22:08:15.803,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Project1.dproj=C:\Users\mmuer\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/05/25 22:15:17.283,=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit1.pas</Transaction>
+    <Transaction>2021/05/25 22:15:44.632,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Pessoa.pas=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit1.pas</Transaction>
+    <Transaction>2021/05/25 22:17:01.972,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.dfm=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit3.dfm</Transaction>
+    <Transaction>2021/05/25 22:17:01.972,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.pas=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit3.pas</Transaction>
+    <Transaction>2021/05/25 22:17:11.155,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Interfaces.Interfaces=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Interfaces</Transaction>
+    <Transaction>2021/05/25 22:17:11.155,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Interfaces.dfm=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.dfm</Transaction>
+    <Transaction>2021/05/25 22:19:23.507,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.View.Principal.dfm=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Interfaces.dfm</Transaction>
+    <Transaction>2021/05/25 22:19:23.507,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.View.Principal.pas=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Interfaces.pas</Transaction>
+    <Transaction>2021/05/25 22:19:45.979,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Interfaces.pas=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit4.pas</Transaction>
+    <Transaction>2021/05/25 22:36:03.303,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.PessoaFisica.pas=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.Pessoa.pas</Transaction>
+    <Transaction>2021/05/25 22:41:21.675,=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit1.pas</Transaction>
+    <Transaction>2021/05/25 22:41:38.773,C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\eInterface.Model.PessoaJuridica.pas=C:\Estudo\Delphi\PooDelphi\Intermediario\Interfaces\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

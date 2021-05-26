@@ -1,0 +1,17 @@
+unit Conexao.Oracle;
+
+interface
+type
+  TConexaoOracle = class
+    procedure Gravar();
+  end;
+implementation
+
+{ TConexaoOracle }
+
+procedure TConexaoOracle.Gravar;
+begin
+//grava
+end;
+
+end.

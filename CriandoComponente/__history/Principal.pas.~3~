@@ -1,0 +1,25 @@
+unit Principal;
+
+interface
+  uses System.Classes;
+
+  type
+    TEventos = class(TComponent)
+      private
+
+      public
+        function TanhoString(value : String) : Integer;
+
+      published
+
+    end;
+implementation
+
+{ TEventos }
+
+function TEventos.TanhoString(value: String): Integer;
+begin
+  Result := Length(Value);
+end;
+
+end.

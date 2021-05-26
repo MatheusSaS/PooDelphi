@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="tffu60djlpnlxfiii_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::war9p7mytqnelj5xn_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,136,166" />
+      <reference referencedUin="delphi:e_class:src:BasicoPoo:UnitBasicoPoo.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:BasicoPoo:UnitBasicoPoo.TGarrafa" />
+      <reference referencedUin="delphi:e_class:src:BasicoPoo:UnitBasicoPoo.TForm3" />
+    </reference>
+    <reference referencedUin="design:view:::31ut37i4xqn1bl93n_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="165,1,114,134" />
+      <reference referencedUin="delphi:e_class:src:BasicoPoo:BasicoPoo.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

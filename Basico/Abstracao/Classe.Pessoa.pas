@@ -1,0 +1,65 @@
+unit Classe.Pessoa;
+
+interface
+  uses System.Classes, System.SysUtils,interfaces;
+
+type
+  TPessoa = class
+    private
+
+    protected
+
+    public
+      Nome : String;
+      Telefone : String;
+      Endereco : String;
+      Cidade : String;
+      Uf : String;
+      Conexao : IConexao;
+
+      function Tipo : String; virtual; abstract;
+      procedure Cadastrar();
+     constructor create(aConexao : IConexao);
+End;
+
+TMyComp = class(TComponent)
+  constructor Create(AOwner : TComponent); override;
+end;
+
+implementation
+
+{ TCliente }
+
+
+procedure TPessoa.Cadastrar;
+Var list : TStringList;
+begin
+  list := TStringList.Create();
+  try
+    list.Add(Nome);
+    list.Add(Endereco);
+    list.Add(Cidade);
+    list.Add(Uf);
+
+    list.SaveToFile('C:\Estudo\Delphi\PooDelphi\Basico\Abstracao\Cliente.txt');
+
+    Conexao.Gravar();
+  finally
+    freeAndNil(list);
+  end;
+end;
+
+constructor TPessoa.create(aConexao : IConexao);
+begin
+  Conexao := aConexao;
+  uf := 'RJ';
+end;
+{ TMyComp }
+
+constructor TMyComp.Create(AOwner: TComponent);
+begin
+  inherited Create(AOwner);
+
+end;
+
+end.

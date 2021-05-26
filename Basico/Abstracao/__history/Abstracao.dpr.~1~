@@ -1,0 +1,15 @@
+program Abstracao;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UniAbstracao in 'UniAbstracao.pas' {Form3},
+  Cliente in 'Cliente.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm3, Form3);
+  Application.Run;
+end.

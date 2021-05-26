@@ -1,0 +1,40 @@
+unit Principal;
+
+interface
+  uses System.Classes;
+
+procedure register;
+
+  type
+    TEventos = class(TComponent)
+      private
+    Fnome: string;
+    procedure Setnome(const Value: string);
+
+      public
+        function TanhoString(value : String) : Integer;
+
+      published
+        property nome : string read Fnome write Setnome;
+    end;
+implementation
+
+{ TEventos }
+
+procedure register;
+begin
+   RegisterComponents('DelphiUpdates',[TEventos]);
+end;
+
+
+procedure TEventos.Setnome(const Value: string);
+begin
+  Fnome := Value;
+end;
+
+function TEventos.TanhoString(value: String): Integer;
+begin
+  Result := Length(Value);
+end;
+
+end.

@@ -1,0 +1,11 @@
+unit Unit4;
+
+interface
+type
+  iPessoa = interface
+    ['{B321E457-DFA2-452C-81D0-743F4D834ADA}']
+    function Nome(Value : String) : iPessoa;
+  end;
+implementation
+
+end.
